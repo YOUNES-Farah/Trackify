@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RFID Access Logs</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>RFID Access Control</h1>
+
+    <h2>Personnes Autorisées</h2>
+    <table id="authorized-table">
+        <thead>
+            <tr>
+                <th>Nom</th>
+                <th>UID</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+
+    <h2>Journal des Tentatives d'Accès</h2>
+    <table id="logs-table">
+        <thead>
+            <tr>
+                <th>Nom</th>
+                <th>UID</th>
+                <th>Status</th>
+                <th>Horodatage</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+
+    <script src="script.js"></script>
+</body>
+</html>
